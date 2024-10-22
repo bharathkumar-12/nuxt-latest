@@ -73,3 +73,12 @@ PUT /api/users?id=<user_id>: Update an existing user by ID.
 DELETE /api/users?id=<user_id>: Delete a user by ID.
 POST /api/auth/login: User login.
 POST /api/auth/register: User registration.
+
+<img width="885" alt="Screenshot 2024-10-22 at 2 59 48 PM" src="https://github.com/user-attachments/assets/29782914-e168-4aad-b4d6-93672f8fffe4">
+<img width="885" alt="Screenshot 2024-10-22 at 2 59 41 PM" src="https://github.com/user-attachments/assets/27e6d646-d13c-422d-a00b-074e65bff454">
+<img width="885" alt="Screenshot 2024-10-22 at 2 59 33 PM" src="https://github.com/user-attachments/assets/056b80ef-083c-42f9-8f03-00f1daa3120b">
+<img width="885" alt="Screenshot 2024-10-22 at 2 59 05 PM" src="https://github.com/user-attachments/assets/fb75f943-f69f-40e8-a354-7b9606f2006b">
+<img width="885" alt="Screenshot 2024-10-22 at 2 59 00 PM" src="https://github.com/user-attachments/assets/1a1e8544-1963-421f-96e7-6b2fb783e02a">
+<img width="885" alt="Screenshot 2024-10-22 at 2 58 53 PM" src="https://github.com/user-attachments/assets/1be17b4f-39cd-4c69-9942-4af9f393941d">
+
+
