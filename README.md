@@ -40,22 +40,18 @@ docker build -t <image_name>:<tag> .
 
 
 Running the Docker Container
+
 Step 1: Start the PostgreSQL Container
 If not already running, start a PostgreSQL container:
-
-bash
-Copy code
 docker run -d --name postgres_container \
   -e POSTGRES_USER=myuser \
   -e POSTGRES_PASSWORD=mysecretpassword \
   -e POSTGRES_DB=mydatabase \
   -p 5432:5432 \
   postgres
+
 Step 2: Start the Nuxt.js Container
 To start the Nuxt.js container:
-
-bash
-Copy code
 docker run -d --name nuxt_app_container \
   -p 3000:3000 \
   --link postgres_container:postgres \
@@ -64,11 +60,9 @@ docker run -d --name nuxt_app_container \
   -e DB_PASSWORD=mysecretpassword \
   -e DB_NAME=mydatabase \
   <image_name>:<tag>
+
 Step 3: Access the Application
 Once the containers are running, you can access the application at:
-
-arduino
-Copy code
 http://localhost:3000
 Interacting with the Application
 Endpoints
